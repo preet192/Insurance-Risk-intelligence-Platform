@@ -1,6 +1,5 @@
 # Insurance Risk Intelligence Platform 🛡️
 ### Dual-Model Framework for Motor Insurance Claim Frequency, Severity, and Commercial Pricing
-**Academic Program:** NMIMS MSc Data Science Capstone Project  
 **Domain:** Actuarial Science, Machine Learning, Solvency II / IFRS 17 Insurance Risk Intelligence  
 **Dataset:** French Motor Third-Party Liability (`freMTPL2freq` & `freMTPL2sev`)
 
