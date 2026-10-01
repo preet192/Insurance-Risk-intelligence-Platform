@@ -1,0 +1,86 @@
+{
+    "training_date": "2026-10-01 20:06:49",
+    "total_records": 678013,
+    "frequency_claim_rate": 0.05023502499214617,
+    "mean_claim_severity": 1682.9633725340216,
+    "median_claim_severity": 1172.0,
+    "portfolio_gini": 0.25222863707933374,
+    "frequency_metrics": {
+        "Logistic_Regression": {
+            "ROC_AUC": 0.5989,
+            "PR_AUC": 0.0767,
+            "Brier_Score": 0.24152,
+            "Log_Loss": 0.6769,
+            "Observed_Claims": 6812,
+            "Expected_Claims": 65895.7,
+            "AE_Ratio": 9.6735
+        },
+        "Poisson_GLM": {
+            "ROC_AUC": 0.635,
+            "PR_AUC": 0.0987,
+            "Brier_Score": 0.0473,
+            "Log_Loss": 0.2043,
+            "Observed_Claims": 6812,
+            "Expected_Claims": 4246.4,
+            "AE_Ratio": 0.6234
+        },
+        "LightGBM_Classifier": {
+            "ROC_AUC": 0.6631,
+            "PR_AUC": 0.123,
+            "Brier_Score": 0.04632,
+            "Log_Loss": 0.1892,
+            "Observed_Claims": 6812,
+            "Expected_Claims": 6825.5,
+            "AE_Ratio": 1.002
+        },
+        "XGBoost_Classifier": {
+            "ROC_AUC": 0.6597,
+            "PR_AUC": 0.1156,
+            "Brier_Score": 0.04648,
+            "Log_Loss": 0.19,
+            "Observed_Claims": 6812,
+            "Expected_Claims": 6824.3,
+            "AE_Ratio": 1.0018
+        }
+    },
+    "severity_metrics": {
+        "Ridge_LogRegression": {
+            "MAE": 1006.91,
+            "RMSE": 3093.06,
+            "R2_Score": -0.0492,
+            "Gamma_Deviance": 1.4654,
+            "Mean_Observed": 1637.73,
+            "Mean_Predicted": 954.26
+        },
+        "Gamma_GLM": {
+            "MAE": 1233.84,
+            "RMSE": 3021.66,
+            "R2_Score": -0.0013,
+            "Gamma_Deviance": 1.1018,
+            "Mean_Observed": 1637.73,
+            "Mean_Predicted": 1691.98
+        },
+        "LightGBM_Severity": {
+            "MAE": 996.59,
+            "RMSE": 3093.07,
+            "R2_Score": -0.0492,
+            "Gamma_Deviance": 1.4627,
+            "Mean_Observed": 1637.73,
+            "Mean_Predicted": 954.89
+        },
+        "XGBoost_Severity": {
+            "MAE": 995.33,
+            "RMSE": 3094.27,
+            "R2_Score": -0.05,
+            "Gamma_Deviance": 1.465,
+            "Mean_Observed": 1637.73,
+            "Mean_Predicted": 952.03
+        }
+    },
+    "commercial_pricing_parameters": {
+        "fixed_expense": 35.0,
+        "variable_expense_ratio": 0.18,
+        "profit_margin": 0.05,
+        "contingency_margin": 0.05
+    }
+}
